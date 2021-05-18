@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+'''
+Script corto para convertir los archivos de todas las comisiones a csv, en la carpeta csv.
+'''
+
 from pandas_ods_reader import read_ods
 import pandas as pd
 import os
